@@ -121,3 +121,16 @@ dmsp_config = {
         "ShelfLife"
     ]
 }
+
+whs_config = {
+    "type": "file",
+    "path": "nebula/ref/codekho.csv",
+    "header_row": 0,
+    "keep_columns": [
+        'MaKho',
+        'TenKho',
+        'KhoGop',
+        'Mien',
+        'LoaiKho',
+    ]
+}
